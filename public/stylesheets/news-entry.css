@@ -1,0 +1,82 @@
+@import "style.css";
+
+
+#headline {
+    text-align: center;
+}
+
+#back-button {
+    float: left;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+}
+
+#back-button:hover {
+    cursor: pointer;
+}
+
+
+.comment {
+    display: flex;
+    border-radius: 5px;
+    border: 10px solid #E5E9F0;
+    background-color: #E5E9F0;
+    margin: 10px;
+    word-break: break-word;
+}
+
+
+.comment:hover {
+    background: #D8DEE9;
+    border: 10px solid #D8DEE9;
+}
+
+.avatar {
+    height: 64px;
+    width: 64px;
+    min-width: 64px;
+    float: left;
+    border-radius: 10px;
+    border: 2px solid #434C5E;
+    object-fit: cover;
+}
+
+
+.name {
+    margin: auto 10px;
+    width: 50px;
+    font-size: large;
+    word-break: normal;
+}
+
+.comment > div {
+    margin-left: 30px;
+}
+
+#text-input {
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .comment {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 30% 70%;
+    }
+
+    .comment > .avatar {
+        grid-column: 1;
+    }
+
+    .comment > .name {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .comment > div {
+        grid-column: 2;
+        grid-row: 1/3;
+    }
+
+}

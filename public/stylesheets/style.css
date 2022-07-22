@@ -1,0 +1,69 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #5E81AC;
+}
+
+
+.time {
+    color: #4C566A;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border-radius: 5px;
+    background: #E5E9F0;
+    border: 5px solid #E5E9F0;
+    color: #2E3440;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+button:hover {
+    background: #D8DEE9;
+    border: 5px solid #D8DEE9;
+    color: #2E3440;
+}
+
+input[type='submit'] {
+    border-radius: 5px;
+    background: #E5E9F0;
+    border: 5px solid #E5E9F0;
+    color: #2E3440;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+input[type='submit']:hover {
+    background: #D8DEE9;
+    border: 5px solid #D8DEE9;
+    color: #2E3440;
+}
+
+input[type='text'], input[type='password'] {
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid #ECEFF4;
+    outline: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input[type='text'], input[type='password']:hover {
+    border-color: #d8dee9;
+}
+
+input[type='text'], input[type='password']:focus {
+    border-color: #81A1C1;
+}

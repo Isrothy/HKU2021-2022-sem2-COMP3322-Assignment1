@@ -1,0 +1,60 @@
+@import "style.css";
+
+#header {
+    display: flex;
+    flex-direction: row;
+}
+
+#text-input {
+    height: 24px;
+    width: 500px;
+}
+
+#search-button {
+    width: 250px;
+    height: 54px;
+    margin: 10px 10px 10px 0;
+}
+
+#login-out {
+    border-radius: 5px;
+    background: #E5E9F0;
+    border: 5px solid #E5E9F0;
+    color: #2E3440;
+    font-size: 14px;
+    font-weight: bold;
+    width: 80px;
+    height: 54px;
+    margin: 10px 10px 10px auto;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#login-out:hover {
+    background: #D8DEE9;
+    border: 5px solid #D8DEE9;
+    color: #2E3440;
+}
+
+
+.news-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.news-title {
+    font-size: large;
+}
+
+#current-index {
+    color: #5E81AC;
+}
+
+.index {
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
